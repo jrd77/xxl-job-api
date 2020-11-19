@@ -1,0 +1,93 @@
+/xss-domain/src/main/resources/generatorConfig.xml
+# Created by .ignore support plugin (hsz.mobi)
+### Eclipse template
+*.pydevproject
+.metadata
+.gradle
+tmp/
+*.tmp
+*.bak
+*.swp
+local.properties
+.settings/
+.idea/*
+.loadpath
+.project
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# sbteclipse plugin
+.target
+
+#### Gradle template
+
+### Maven template
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+### Java template
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.iml
+.idea/
+# if you remove the above rule, at least ignore the following:
+
+# User-specific stuff:
+ .idea/workspace.xml
+ .idea/tasks.xml
+ .idea/dictionaries
+
+# Sensitive or high-churn files:
+ .idea/dataSources.ids
+ .idea/dataSources.xml
+ .idea/sqlDataSources.xml
+ .idea/dynamic.xml
+ .idea/uiDesigner.xml
+ .idea/misc.xml
+ .idea/compiler.xml
+ .idea/encodings.xml
+ .idea/misc.xml
+ .idea/modules.xml
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+.DS_Store
+
+target
+pom.xml.orig
+*.orig
+*.log
+
+.mvn
+mvnw*
+*application-my*.yml
+*application-my*.properties
+/log_home_IS_UNDEFINED
