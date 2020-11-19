@@ -36,7 +36,6 @@ buildNumber.properties
 *.class
 
 # Package Files #
-*.jar
 *.war
 *.ear
 *.iml
@@ -81,7 +80,7 @@ crashlytics-build.properties
 
 .DS_Store
 
-target
+#target
 pom.xml.orig
 *.orig
 *.log
