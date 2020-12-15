@@ -1,13 +1,13 @@
-package net.oschina.xxl.job.api;
+package com.github.jar77.job.api;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.map.MapUtil;
-import net.oschina.xxl.job.api.entity.*;
-import net.oschina.xxl.job.constant.*;
-import net.oschina.xxl.job.util.HttpKit;
-import net.oschina.xxl.job.util.JobUtil;
-import net.oschina.xxl.job.util.XxlJobConfigKit;
+import com.github.jar77.job.api.entity.*;
+import com.github.jar77.job.constant.*;
+import com.github.jar77.job.util.HttpKit;
+import com.github.jar77.job.util.JobUtil;
+import com.github.jar77.job.util.XxlJobConfigKit;
 
 import java.util.*;
 import java.util.logging.Level;
@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 
 /**
  * @Classname JobApi
- * @Description
+ * @Description JobInfoApi 目前支持的方法
  * @Date 2020/11/17 17:20
  * @Author W.Z
  */

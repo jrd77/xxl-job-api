@@ -1,4 +1,4 @@
-package net.oschina.xxl.job.util;
+package com.github.jar77.job.util;
 
 /**
  * @Classname XxlJobConfig

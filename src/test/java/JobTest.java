@@ -1,6 +1,6 @@
-import net.oschina.xxl.job.api.JobInfoApi;
-import net.oschina.xxl.job.api.entity.ReturnT;
-import net.oschina.xxl.job.util.HttpKit;
+import com.github.jar77.job.api.JobInfoApi;
+import com.github.jar77.job.api.entity.ReturnT;
+import com.github.jar77.job.util.HttpKit;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

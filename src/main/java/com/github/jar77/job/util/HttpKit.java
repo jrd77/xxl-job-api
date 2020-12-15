@@ -1,12 +1,12 @@
-package net.oschina.xxl.job.util;
+package com.github.jar77.job.util;
 
 import cn.hutool.core.lang.Assert;
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.http.*;
 import cn.hutool.json.JSONUtil;
-import net.oschina.xxl.job.api.entity.ReturnT;
-import net.oschina.xxl.job.constant.*;
+import com.github.jar77.job.api.entity.ReturnT;
+import com.github.jar77.job.constant.*;
 
 import java.util.Map;
 import java.util.Optional;
@@ -68,13 +68,13 @@ public class HttpKit {
     }
 
 
-    public static String init(String baseXxlJobUrl,String userName,String password) {
+    public static String init(Map<String, Object> configMap) {
 
         if (token != null) {
             return token;
         }
         logger.info("xxl-job-api init start");
-        XxlJobConfigKit.params(baseXxlJobUrl,userName,password);
+        XxlJobConfigKit.params(configMap);
         getLoginToken();
         logger.info("xxl-job-api init completed");
         return token;

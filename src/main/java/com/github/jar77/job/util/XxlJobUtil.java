@@ -1,9 +1,9 @@
-package net.oschina.xxl.job.util;
+package com.github.jar77.job.util;
 
 import cn.hutool.core.lang.Assert;
-import net.oschina.xxl.job.api.JobInfoApi;
-import net.oschina.xxl.job.api.entity.JobAddFormVO;
-import net.oschina.xxl.job.api.entity.ReturnT;
+import com.github.jar77.job.api.JobInfoApi;
+import com.github.jar77.job.api.entity.JobAddFormVO;
+import com.github.jar77.job.api.entity.ReturnT;
 
 /**
  * @Classname XxlJobUtil

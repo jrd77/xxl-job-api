@@ -1,7 +1,6 @@
 
-package net.oschina.xxl.job.api.entity;
+package com.github.jar77.job.api.entity;
 
-import javax.annotation.Generated;
 import java.io.Serializable;
 
 /**

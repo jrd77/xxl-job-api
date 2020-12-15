@@ -1,4 +1,4 @@
-package net.oschina.xxl.job.util;
+package com.github.jar77.job.util;
 
 import cn.hutool.core.lang.Assert;
 import cn.hutool.core.util.StrUtil;
@@ -21,7 +21,7 @@ public class XxlJobConfigKit {
 
     static Map<String, Object> loginParamMap(){
 
-        Assert.notEmpty(configMap,"plz use net.oschina.xxl.job.util.HttpKit.init(String) first");
+        Assert.notEmpty(configMap,"plz use com.github.jar77.job.util.HttpKit.init(String) first");
         Map<String, Object> map=new HashMap<>();
         map.put("userName",configMap.get("xxl-job.user-name"));
         map.put("password",configMap.get("xxl-job.password"));
@@ -31,21 +31,16 @@ public class XxlJobConfigKit {
 
     public static String getConfigProperty(String key){
 
-        Assert.notEmpty(configMap,"plz use net.oschina.xxl.job.util.HttpKit.init(String) first,look file [resources/xxl-job.setting]");
+        Assert.notEmpty(configMap,"plz use com.github.jar77.job.util.HttpKit.init(String) first,look file [resources/xxl-job.setting]");
         return Optional.ofNullable(configMap.get(key)).get().toString();
     }
 
-    static Map<String, Object> params(String baseXxlJobUrl,String userName,String password){
+    static Map<String, Object> params(Map<String, Object> paramsMap){
 
         if(configMap!=null){
             return configMap;
         }
-        Assert.isTrue(StrUtil.isAllNotBlank(baseXxlJobUrl,userName,password),"the params must be not blank");
-
-        configMap=new HashMap<>(16);
-        configMap.put("xxl-job.url",baseXxlJobUrl);
-        configMap.put("xxl-job.user-name",userName);
-        configMap.put("xxl-job.password",password);
+        configMap=paramsMap;
         return configMap;
     }
     static Map<String, Object> params(String settingPath){

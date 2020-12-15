@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <!--    版本号 和xxl-job一致-->
-    <groupId>net.oschina.xxl.job</groupId>
+    <groupId>com.github.jar77.job</groupId>
     <artifactId>xxl-job-api</artifactId>
     <version>2.2.3.1</version>
 
@@ -52,5 +52,4 @@
             </properties>
         </profile>
     </profiles>
-
 </project>

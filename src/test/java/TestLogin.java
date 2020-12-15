@@ -1,7 +1,5 @@
-import cn.hutool.core.io.FileUtil;
-import cn.hutool.setting.GroupedMap;
 import cn.hutool.setting.Setting;
-import net.oschina.xxl.job.util.HttpKit;
+import com.github.jar77.job.util.HttpKit;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

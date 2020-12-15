@@ -1,6 +1,6 @@
-package net.oschina.xxl.job.util;
+package com.github.jar77.job.util;
 
-import net.oschina.xxl.job.api.entity.CronExpression;
+import com.github.jar77.job.api.entity.CronExpression;
 
 import java.util.Date;
 

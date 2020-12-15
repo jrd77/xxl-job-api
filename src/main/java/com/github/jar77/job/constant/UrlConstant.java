@@ -1,4 +1,4 @@
-package net.oschina.xxl.job.constant;
+package com.github.jar77.job.constant;
 
 /**
  * @Classname UrlConstant
